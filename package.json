@@ -1,0 +1,22 @@
+{
+  "name": "recip-app",
+  "version": "1.0.0",
+  "description": "Udemy course Project by jonas",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amit258012/Recip-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amit258012/Recip-app/issues"
+  },
+  "homepage": "https://github.com/Amit258012/Recip-app#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

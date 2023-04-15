@@ -2,21 +2,26 @@
   "name": "recip-app",
   "version": "1.0.0",
   "description": "Udemy course Project by jonas",
-  "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass src/sass/main.scss src/css/style.css -w"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amit258012/Recip-app.git"
   },
-  "author": "",
+  "author": "Amit Jahagirdar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Amit258012/Recip-app/issues"
   },
   "homepage": "https://github.com/Amit258012/Recip-app#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "core.js": "^0.4.2",
+    "regenerator-runtime": "^0.13.11"
   }
 }

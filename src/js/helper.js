@@ -1,6 +1,5 @@
 import { TIMEOUT_SECONDS } from './config.js';
-// import icons from 'url:../../img/icons.svg';
-import icons from 'url:../img/icons.svg';
+// import icons from 'url:../img/icons.svg';
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {

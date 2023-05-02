@@ -50,9 +50,6 @@ class RecipeView extends View {
             <span class="recipe__info-text">minutes</span>
           </div>
           <div class="recipe__info">
-            <svg class="recipe__info-icon">
-              <use href="${icons}#icon-users"></use>
-            </svg>
             <span class="recipe__info-data recipe__info-data--people">${
               this._data.servings
             }</span>
@@ -74,10 +71,6 @@ class RecipeView extends View {
                 </svg>
               </button>
             </div>
-          </div>
-
-          <div class="recipe__user-generated">
-           
           </div>
           <button class="btn--round btn--bookmark">
             <svg class="">

@@ -1,6 +1,6 @@
 # Recip-app
 
-Udemy course Project by jonas
+Udemy course Project by Jonas
 learned by Amit Jahagirdar😁
 
-webite link:-
+website link:- https://forkify-v2.netlify.app/
